@@ -1,0 +1,217 @@
+#player1 {
+   height: 45vh;
+   width: 20vw;
+
+   position: absolute;
+   left: 15%;
+   top: 10%;
+
+   color: white;
+   font-size: 1vw;
+   text-align: center;
+
+   /* animation: body-anim-P1 3s alternate 1s 2 forwards; */
+}
+
+#player2 {
+   height: 45vh;
+   width: 20vw;
+
+   position: absolute;
+   right: 15%;
+   top: 10%;
+
+   color: black;
+   font-size: 1vw;
+   text-align: center;
+
+   /* animation: body-anim-P2 3s alternate 1s 2 forwards; */
+}
+
+.Pbody {
+   /* width: 25px;
+   height: 25px; */
+   background-color: black;
+   border: 1px solid black;
+   border-radius: 25%;
+
+   text-align: center;
+
+   font-weight: bold;
+}
+
+#head1 {
+   width: 25%;
+   height: 20%;
+   background-color: blue;
+   border: 1px solid black;
+
+   position: absolute;
+   top: 26%;
+   left: 38%;
+
+   border-radius: 50%;
+}
+
+#Pbody1 {
+   width: 20%;
+   height: 35%;
+   line-height: 5vh;
+   background-image: url("poze/catPaw.PNG");
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: contain;
+   color: greenyellow;
+   font-size: 1vw;
+
+   position: absolute;
+   top: 48%;
+   left: 40%;
+}
+
+#handR1 {
+   width: 45%;
+   height: 6%;
+   background-color: blue;
+
+   position: absolute;
+   top: 48%;
+   left: 48%;
+
+   line-height: 3vh;
+
+   transform-origin: left;
+   /* animation: R-hand-anim-P1 3s alternate 1s 2 forwards; */
+}
+
+#handL1 {
+   width: 45%;
+   height: 6%;
+   background-color: blue;
+
+   position: absolute;
+   top: 48%;
+   right: 48%;
+
+   transform-origin: right;
+
+   line-height: 3vh;
+   /* animation: L-hand-anim-P1 3s alternate 1s 2 forwards; */
+}
+
+#footR1 {
+   width: 45%;
+   height: 6%;
+   background-color: blue;
+
+   position: absolute;
+   top: 78%;
+   left: 53%;
+   transform-origin: left;
+   transform: rotate(60deg);
+
+   /* animation: R-foot-anim-P1 3s alternate 1s 2 forwards; */
+}
+
+#footL1 {
+   width: 45%;
+   height: 6%;
+   background-color: blue;
+
+   position: absolute;
+   top: 78%;
+   right: 53%;
+   transform-origin: right;
+   transform: rotate(-60deg);
+
+   /* animation: L-foot-anim-P1 3s alternate 1s 2 forwards; */
+}
+
+#head2 {
+   width: 25%;
+   height: 20%;
+   background-color: red;
+   border: 1px solid black;
+
+   position: absolute;
+   top: 26%;
+   left: 38%;
+
+   border-radius: 50%;
+}
+
+#Pbody2 {
+   width: 20%;
+   height: 35%;
+   line-height: 5vh;
+   background-image: url("poze/dogPaw.PNG");
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: contain;
+   color: greenyellow;
+   font-size: 1vw;
+
+   position: absolute;
+   top: 48%;
+   left: 40%;
+
+   /* transform-origin: bottom; */
+}
+
+#handR2 {
+   width: 45%;
+   height: 6%;
+   background-color: red;
+
+   position: absolute;
+   top: 48%;
+   left: 48%;
+
+   transform-origin: left;
+
+   line-height: 3vh;
+   /* animation: R-hand-anim-P2 3s alternate 1s 2 forwards; */
+}
+
+#handL2 {
+   width: 45%;
+   height: 6%;
+   background-color: red;
+
+   position: absolute;
+   top: 48%;
+   right: 48%;
+
+   transform-origin: right;
+
+   line-height: 3vh;
+   /* animation: L-hand-anim-P2 3s alternate 1s 2 forwards; */
+}
+
+#footR2 {
+   width: 45%;
+   height: 6%;
+   background-color: red;
+
+   position: absolute;
+   top: 78%;
+   left: 53%;
+   transform-origin: left;
+   transform: rotate(60deg);
+
+   /* animation: R-foot-anim-P2 3s alternate 1s 2 forwards; */
+}
+
+#footL2 {
+   width: 45%;
+   height: 6%;
+   background-color: red;
+
+   position: absolute;
+   top: 78%;
+   right: 53%;
+   transform-origin: right;
+   transform: rotate(-60deg);
+
+   /* animation: L-foot-anim-P2 3s alternate 1s 2 forwards; */
+}

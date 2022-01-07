@@ -1,0 +1,201 @@
+body {
+  background-color: #4e4e4e;
+  /* font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif; */
+  user-select: none;
+  overflow: hidden;
+  font-family: "Barlow Condensed", sans-serif;
+}
+
+#top-box {
+  background-color: #7c7e7c;
+  height: 10vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+#mid-box {
+  background-color: white;
+  height: 60vh;
+  line-height: 30vh;
+
+  text-align: center;
+  font-size: 5vw;
+
+  position: relative;
+}
+
+#bottom-box {
+  background-color: #7c7e7c;
+  height: 10vh;
+
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.top-minibox {
+  background-color: beige;
+  border: 2px solid black;
+  height: 6vh;
+  width: 15vw;
+
+  color: aliceblue;
+  font-size: 2vw;
+  text-align: center;
+  line-height: 6vh;
+  text-shadow: 2px 2px 2px black;
+}
+
+.life {
+  width: 7vw;
+}
+
+.lifes {
+  margin-top: 10%;
+  width: 35%;
+  height: 60%;
+}
+
+.hp1 {
+  background-color: red;
+  width: 30vw;
+  position: relative;
+  color: black;
+  font-weight: bold;
+  text-shadow: none;
+}
+
+.hp2 {
+  background-color: red;
+  width: 30vw;
+  position: relative;
+  color: black;
+  font-weight: bold;
+  text-shadow: none;
+}
+
+#hpP1 {
+  background-color: greenyellow;
+  height: 6vh;
+  width: 100%;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+
+#hpP1A {
+  color: black;
+  text-shadow: 1px 1px 1px white;
+  height: 6vh;
+  width: 30vw;
+  position: relative;
+  left: 0px;
+  top: 0px;
+}
+
+#hpP2 {
+  background-color: greenyellow;
+  height: 6vh;
+  width: 100%;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+
+#hpP2A {
+  color: black;
+  text-shadow: 1px 1px 1px white;
+  height: 6vh;
+  width: 30vw;
+  position: relative;
+  left: 0px;
+  top: 0px;
+}
+
+.round {
+  background-color: black;
+  width: 15vw;
+  font-family: serif;
+}
+
+#bottom-minibox {
+  height: 8vh;
+  width: 30vw;
+  background-color: blue;
+  border: 1px solid black;
+
+  position: relative;
+
+  top: 10%;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+
+  border-radius: 25px;
+}
+
+#bottom-minibox2 {
+  height: 8vh;
+  width: 30vw;
+  background-color: red;
+  border: 1px solid black;
+
+  position: relative;
+
+  top: 10%;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+
+  border-radius: 25px;
+}
+
+.btn {
+  height: 5vh;
+  width: 10vw;
+  font-size: 1.5vw;
+  font-family: "Yuji Mai", serif;
+  font-weight: bold;
+  user-select: none;
+
+  border-radius: 25%;
+}
+
+.btn:hover {
+  background-color: yellow;
+  box-shadow: 2px 2px 2px black;
+  cursor: pointer;
+  transform: scaleX(1.2);
+}
+
+.btnH:hover {
+  background-color: greenyellow;
+  box-shadow: 2px 2px 2px black;
+  cursor: pointer;
+  transform: scaleX(1.2);
+}
+
+.mid-minbox {
+  height: 45vh;
+  width: 20vw;
+
+  position: relative;
+  margin: 0 auto;
+  top: 10%;
+}
+
+/* #life1P1 {
+   
+}
+#life2P1 {
+
+}
+#life1P2 {
+
+}
+#life2P2 {
+
+} */

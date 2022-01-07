@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Cats VS Dogs</title>
+      <link rel="stylesheet" href="style.css" />
+      <link rel="stylesheet" href="animation.css" />
+      <link rel="stylesheet" href="bodyPartsP1P2.css" />
+      <link rel="icon" type="image/x-icon" href="./catsVSdogs.png" >
+      <style>
+         @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,400;0,600;0,800;1,400&display=swap');
+         </style>
+      <script src="script.js" defer></script>
+      <script src="script2.js" defer></script>
+   </head>
+   <body>
+      <div id="top-box">
+         <div class="top-minibox life">
+            <img
+               id="life1P1"
+               class="lifes"
+               src="poze/life.png"
+               width="35px"
+               height="35px"
+            />
+            <img
+               id="life2P1"
+               class="lifes"
+               src="poze/life.png"
+               width="35px"
+               height="35px"
+            />
+         </div>
+         <div class="top-minibox hp1">
+            <div id="hpP1">
+               <div id="hpP1A">100%</div>
+            </div>
+         </div>
+         <div class="top-minibox round" id="roundCounter">Round 1</div>
+         <div class="top-minibox hp2">
+            <div id="hpP2">
+               <div id="hpP2A">100%</div>
+            </div>
+         </div>
+         <div class="top-minibox life">
+            <img
+               id="life1P2"
+               class="lifes"
+               src="poze/life.png"
+               width="35px"
+               height="35px"
+            />
+            <img
+               id="life2P2"
+               class="lifes"
+               src="poze/life.png"
+               width="35px"
+               height="35px"
+            />
+         </div>
+      </div>
+      <div id="mid-box">
+         CATs vs DOGs
+         <div class="mid-minbox" id="player1">
+            <div class="Pbody" id="handR1"></div>
+            <div class="Pbody" id="handL1"></div>
+            <div class="Pbody" id="Pbody1">CAT</div>
+            <div class="Pbody" id="footR1"></div>
+            <div class="Pbody" id="footL1"></div>
+            <div id="P1Select">
+               <img
+                  id="head1"
+                  src="poze/Cats/cat1.PNG"
+                  height="150px"
+                  width="100px"
+               />
+            </div>
+            <div id="hitDmgP2"></div>
+            <div id="biteDmgP1"></div>
+         </div>
+
+         <div class="mid-minbox" id="player2">
+            <div class="Pbody" id="handR2"></div>
+            <div class="Pbody" id="handL2"></div>
+            <div class="Pbody" id="Pbody2">DOG</div>
+            <div class="Pbody" id="footL2"></div>
+            <div class="Pbody" id="footR2"></div>
+            <div id="P2Select">
+               <img
+                  id="head2"
+                  src="poze/Dogs/dog1.PNG"
+                  height="150px"
+                  width="100px"
+               />
+            </div>
+            <div id="hitDmgP1"></div>
+            <div id="biteDmgP2"></div>
+         </div>
+      </div>
+      <div id="bottom-box">
+         <div id="bottom-minibox">
+            <button
+               class="btn"
+               id="hit"
+               title="Claw/Paw damage is between 20 and 30"
+            >
+               Claw
+            </button>
+            <button
+               class="btn btnH"
+               id="bite"
+               title="Bite damage is between 5 and 45"
+            >
+               Bite
+            </button>
+         </div>
+         <div id="bottom-minibox2">
+            <button
+               class="btn"
+               id="hit2"
+               title="Claw/Paw damage is between 20 and 30"
+            >
+               Paw
+            </button>
+            <button
+               class="btn btnH"
+               id="bite2"
+               title="Bite damage is between 5 and 45"
+            >
+               Bite
+            </button>
+         </div>
+      </div>
+   </body>
+</html>
