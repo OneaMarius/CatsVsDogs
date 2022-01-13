@@ -1,13 +1,13 @@
 @keyframes dmg-anim {
   0% {
     top: 0%;
-    color: white;
+    color: transparent;
   }
   25% {
   }
   50% {
     top: 0%;
-    color: white;
+    color: transparent;
   }
   51% {
     top: 0%;

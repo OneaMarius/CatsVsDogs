@@ -16,7 +16,10 @@ body {
 }
 
 #mid-box {
-  background-color: white;
+  background-image: url("https://images.unsplash.com/photo-1581995763167-1979f42aa95c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1230&q=80");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
   height: 60vh;
   line-height: 30vh;
 
@@ -27,7 +30,10 @@ body {
 }
 
 #bottom-box {
-  background-color: #7c7e7c;
+  background-image: url("https://images.unsplash.com/photo-1581995763167-1979f42aa95c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1230&q=80");
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
   height: 10vh;
 
   display: flex;
@@ -122,7 +128,7 @@ body {
 #bottom-minibox {
   height: 8vh;
   width: 30vw;
-  background-color: blue;
+  background-color: rgba(0, 0, 255, 0.5);
   border: 1px solid black;
 
   position: relative;
@@ -139,7 +145,7 @@ body {
 #bottom-minibox2 {
   height: 8vh;
   width: 30vw;
-  background-color: red;
+  background-color: rgba(255, 0, 0, 0.5);
   border: 1px solid black;
 
   position: relative;
@@ -168,14 +174,14 @@ body {
   background-color: yellow;
   box-shadow: 2px 2px 2px black;
   cursor: pointer;
-  transform: scaleX(1.2);
+  transform: scale(1.05);
 }
 
 .btnH:hover {
   background-color: greenyellow;
   box-shadow: 2px 2px 2px black;
   cursor: pointer;
-  transform: scaleX(1.2);
+  transform: scale(1.05);
 }
 
 .mid-minbox {
